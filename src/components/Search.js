@@ -25,7 +25,7 @@ class Search extends Component {
             OK
           </button>
         </div>
-        {this.state.links.map((link, index) => <Link key={link.id} link={link} index={index}/>)}
+        {this.state.links.map((link, index) => <Link key={link.id} link={link} index={index} />)}
       </div>
     )
   }
